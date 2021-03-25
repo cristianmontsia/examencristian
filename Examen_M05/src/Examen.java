@@ -1,5 +1,9 @@
 public class Examen {
 	
+	/**
+	 * 
+	 **/
+	
 	public int registrarPreu(double preu, String ticker) {
 	 
 		//Si fora real guardaria a la base de dades el nom de l'empresa i el valor de l'acci�
@@ -8,6 +12,7 @@ public class Examen {
 		String tickersValids = "AAPL AMZN FB GOOGL";
 			
 		int comparacio = tickersValids.indexOf(ticker);
+		
 		if (comparacio == -1) {
 				
 			System.out.println("El ticker no �s v�lid");
@@ -34,12 +39,19 @@ public class Examen {
 		return 0;
 	}
 		
+	/**
+	 * 
+	 **/
 	
 	public double preuMax(){
 		//Un programa real es connectaria a una base de dades per a mirar el preu m�s alt
 		//com �s per a una prova r�pida mostra un valor predeterminat
 		return 455.0;
 	}
+	
+	/**
+	 * 
+	 **/
 		
 	public String tickerMax() {
 		//Un programa real es connectaria a una base de dades per a mirar l'empresa amb el preu m�s alt
@@ -47,12 +59,19 @@ public class Examen {
 		return "AAPL";
 	}
 		
+	/**
+	 * 
+	 **/
 		
 	public double preuMin() {
 		//Igual per als valors m�nims
 		return 150.0;
 	}
 		
+	/**
+	 * 
+	 **/
+	
 	public String tickerMin() {
 		//Igual per als valors m�nims
 		return "FB";
