@@ -1,6 +1,7 @@
 public class Examen {
 	
 	/**
+	 * Aqui creem una variable la qual guardara string i un int per comparar els tricker
 	 * 
 	 **/
 	
@@ -40,7 +41,7 @@ public class Examen {
 	}
 		
 	/**
-	 * 
+	 * Aqui ens retornara el preu maxim en aquest cas 455
 	 **/
 	
 	public double preuMax(){
@@ -50,7 +51,7 @@ public class Examen {
 	}
 	
 	/**
-	 * 
+	 * Ens retornara el ticker que te el preu mes alt en aquest cas AAPL
 	 **/
 		
 	public String tickerMax() {
@@ -60,7 +61,7 @@ public class Examen {
 	}
 		
 	/**
-	 * 
+	 * Ens retornara el preu minim que sera de 150
 	 **/
 		
 	public double preuMin() {
@@ -69,7 +70,7 @@ public class Examen {
 	}
 		
 	/**
-	 * 
+	 * Ens retornara el tricker minim que hi tenim en aquest cas FB
 	 **/
 	
 	public String tickerMin() {
